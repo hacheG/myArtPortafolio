@@ -11,7 +11,7 @@ header
     width: 100%;
     top: 0;
     /* height: 100%; */
-    background-color: black;
+    background: black; 
 }
 
 main
@@ -20,7 +20,7 @@ main
     padding-top: 30px;
     padding-left: 40px;
     text-align: center; 
-
+    
 }
 
 img
@@ -40,10 +40,11 @@ h1
 
 nav
 {
+    
     text-align: right;
     padding-top: 80px;
     padding-right: 40px;
-
+    
 }
 
 ul
@@ -85,12 +86,18 @@ div
     overflow:auto;
     height: 100%;
     text-align: left;
+    
+
 }
 
 article
 {
     width: 80%;
     margin: auto;
+    font-family:sans-serif ;
+    border:1px solid rgb(224, 207, 240);
+    border-radius: 8px;
+    padding: 3%;
 }
 
 figure
