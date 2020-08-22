@@ -1,0 +1,98 @@
+body
+{
+    margin: 0;
+    
+}
+
+video
+{
+     width: 100%; 
+    position: fixed;  
+    z-index: -100;
+}
+
+main
+{
+    float: left;
+    padding-top: 30px;
+    padding-left: 40px;
+    text-align: center; 
+
+}
+
+img
+{
+    width: 90px;
+    /* padding-top: 2%; */
+} 
+
+h1
+{
+    font-family: sans-serif;
+    color: whitesmoke;
+    margin: 0;
+    padding-bottom: 2%;
+    margin: 0, auto;
+} 
+
+nav
+{
+    text-align: right;
+    padding-top: 80px;
+    padding-right: 40px;
+
+}
+
+ul
+{
+    display: inline;
+    
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    
+}
+
+li
+{
+    display: inline;
+    margin: 0 15px;
+    color: white;
+    font-size: 15pt;
+    font: bolder;
+    font-family:sans-serif;
+    
+}
+
+a
+{
+    color: white;
+    transition: all 0.3 ease;
+}
+
+a:hover
+{
+    color: rgb(185, 185, 185);
+}
+
+div
+{
+    clear: both;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.div-p-avisoPrincipal
+{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-size: 200pt;
+    font-family: sans-serif;
+}
+
+.div-p-avisoPrincipal-sub
+{
+    margin-top: -5%;
+    font-size: 20pt;
+}

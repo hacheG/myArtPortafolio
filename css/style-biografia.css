@@ -4,11 +4,14 @@ body
     
 }
 
-video
+header
 {
-     width: 100%; 
-    position: fixed;  
-    z-index: -100;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    /* height: 100%; */
+    background-color: black;
 }
 
 main
@@ -29,7 +32,7 @@ img
 h1
 {
     font-family: sans-serif;
-    color: whitesmoke;
+    color: white;
     margin: 0;
     padding-bottom: 2%;
     margin: 0, auto;
@@ -46,6 +49,12 @@ nav
 ul
 {
     display: inline;
+    
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    
 }
 
 li
@@ -56,25 +65,41 @@ li
     font-size: 15pt;
     font: bolder;
     font-family:sans-serif;
+    
+}
+
+a
+{
+    color: white;
+    transition: all 0.3 ease;
+}
+
+a:hover
+{
+    color: rgb(185, 185, 185);
 }
 
 div
 {
-    clear: both;
-    color: blanchedalmond;
+    margin-top: 200px;
+    overflow:auto;
+    height: 100%;
+    text-align: left;
+}
+
+article
+{
+    width: 80%;
+    margin: auto;
+}
+
+figure
+{
     text-align: center;
+    
 }
 
-.div-p-avisoPrincipal
+.imagenHache
 {
-    margin-top: 5%;
-    margin-bottom: 1%;
-    font-size: 200pt;
-    font-family: sans-serif;
-}
-
-.div-p-avisoPrincipal-sub
-{
-    margin-top: -5%;
-    font-size: 20pt;
+    width: 50%;
 }
