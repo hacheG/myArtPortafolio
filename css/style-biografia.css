@@ -11,8 +11,14 @@ header
     width: 100%;
     top: 0;
     /* height: 100%; */
-    background: black; 
+    background: black ;  
+
 }
+
+/* video
+{
+    z-index: -1;
+} */
 
 main
 {
@@ -40,7 +46,7 @@ h1
 
 nav
 {
-    
+    z-index: 1;
     text-align: right;
     padding-top: 80px;
     padding-right: 40px;
@@ -73,6 +79,11 @@ a
 {
     color: white;
     transition: all 0.3 ease;
+}
+
+.anchor-blog
+{
+    color: blueviolet;
 }
 
 a:hover
@@ -110,3 +121,41 @@ figure
 {
     width: 50%;
 }
+
+footer
+{
+    background: black;
+    height: 100px;
+}
+
+section
+{
+    margin: 0;
+    /* border:1px solid blueviolet; */
+    /* width: 30%; */
+    text-align: center;
+    
+
+} 
+
+.face
+{
+    margin-top: 2%;
+    width: 2%;
+     padding: 0 2%; 
+     margin-bottom: 1%;
+}
+
+p
+{
+    color: rgb(205, 135, 222);
+    font-family: sans-serif;
+    font-size: 7pt;
+     margin: 0; 
+
+}
+
+
+
+
+
